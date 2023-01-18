@@ -1,0 +1,744 @@
+/* ==============================================================
+                            PAGE LINKS
+===============================================================*/
+a {
+    text-decoration: none;
+    color: #30333B;;
+    outline: 0;
+    font-family: 'Roboto', sans-serif; 
+
+    /* Smooth change */
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00ADEF;
+
+    /* Smooth change */
+    transition: all .2s ease-in-out;
+}
+
+#sidebar-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+#sidebar-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+/* ==========================================
+            PORTFOLIO SECTION
+===========================================*/
+
+.portfolio-sublayer {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1E1E1E;
+ }
+
+ /* Black transparent layer */
+.portfolio-toplayer {
+    padding: 15px;
+}
+
+ /* Black transparent layer */
+ .col-md-5 p {
+    color: white !important;
+}
+
+.portfolio-toplayer h4 {
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.col-sm-3 {
+    width: 50%;
+    margin: auto;
+}
+
+.col-sm-3  img {
+    margin: auto;
+    background: #213651;
+    padding: 3px;
+
+    transition: all .2s ease-in-out;
+}
+/*
+.col-sm-3  img:hover {
+    transition: all .2s ease-in-out;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}*/
+
+.col-sm-3 p {
+    padding: 15px 15px 0px 15px;
+    color: #dddddd;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.col-sm-3 a {
+    font-size: 18px;
+    color: #E67E22;
+    text-decoration: none;
+
+}
+
+.col-sm-3 a:hover {
+    color: white;
+}
+
+.card {
+    box-shadow: 0px 0px 6px #00ADEF;;
+}
+
+/* Forces the portfolio sections to fill all screen width (on mobile) */
+@media screen and (max-width: 650px) {
+    .col-sm-3 {
+        width: 100%;
+    }
+}
+ 
+/* ==============================================================
+                DOWNLOADS SECTION - TABLE WITH LINKS
+===============================================================*/
+
+/**********************************************
+    Desktop device
+**********************************************/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+tr {
+    height: 32px;
+    line-height: 32px;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #007ACC;
+    font-size: 18px;
+    border-bottom: 3px solid #007ACC;
+}
+
+td {
+    font-family: 'Raleway', sans-serif;
+    color: #1E1E1E;
+    font-size: 15px;
+}
+
+.table-date {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-text {
+    text-align: left;
+    padding-left: 35px;
+    font-size: 15px;
+}
+.table-text i {
+    color: #00ADEF;
+}
+
+
+.table-text a {
+    color: #1E1E1E;
+    font-weight: bold;
+
+    /* Smooth change */
+    transition: all .1s ease-in-out;
+}
+
+.table-text a:hover {
+    color: #00ADEF;
+    font-weight: bold;
+    
+    /* Smooth change */
+    transition: all .1s ease-in-out;
+}
+
+/**********************************************
+    Mobile device - max-width: 650px
+**********************************************/
+@media screen and (max-width: 650px) {
+    th {
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+        font-family: 'Roboto', sans-serif;
+        color: #007ACC;
+        font-size: 16px;
+        border-bottom: 3px solid #007ACC;
+    }
+
+    td {
+        font-family: 'Raleway', sans-serif;
+        color: #1E1E1E;
+        font-size: 15px;
+    }
+    
+    .table-date {
+        text-align: center;
+        font-weight: none;
+        font-size: 12px;
+    }
+    
+    .table-text {
+        text-align: left;
+        padding-left: 5px;
+        font-size: 14px;
+        font-weight: none !important;
+    }
+    .table-text i {
+        color: #00ADEF;
+    }
+    
+    .table-text a {
+        color: #1E1E1E;
+        font-weight: none;
+    
+        /* Smooth change */
+        transition: all .1s ease-in-out;
+    }
+    
+    .table-text a:hover {
+        color: #00ADEF;
+        font-weight: none;
+        
+        /* Smooth change */
+        transition: all .1s ease-in-out;
+    }
+}
+
+
+
+/* Table ODD row */
+tr:nth-child(odd){
+    background-color: rgba(240, 240, 240, 0.7);
+}
+
+/* Table EVEN row */
+tr:nth-child(even){
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+
+
+/* ==========================================
+            AUTHORING SECTION
+===========================================*/
+
+/* Authoring section titles */
+.col-md-5 h3 {
+    text-align: left;
+    font-size: 22px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Authoring section text */
+.col-md-5 p {
+    text-align: normal!important;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* ==========================================
+        BODY ABOUT ME DESCRIPTION
+===========================================*/
+p {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    color: black!important;
+}
+
+/* About me Profile Image */
+.profile-image img {
+    transition: all .3s ease-in-out;
+}
+
+/* About me Profile Image on hover state */
+.profile-image img:hover {
+    transition: all .3s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#aboutme-text p {
+    text-align: justify;
+}
+
+/* ==========================================
+            HEADER TOP LOGO IMAGE
+===========================================*/
+.image {
+    display: inline-block;
+    border: 0;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image.avatar48 {
+    width: 48px;
+    height: 48px;
+}
+
+.image.avatar48 img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.image.fit {
+    display: block;
+    width: 100%;
+}
+
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image.centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
+/* ==========================================
+        HEADER BOTTOM SOCIAL ICONS
+===========================================*/
+#bottomicons img {
+	transition: all .2s ease-in-out;
+    width: 42px;
+}
+
+#bottomicons img:hover {
+	transition: all .2s ease-in-out;
+ 	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* ==========================================
+            SECTION HEADER /
+===========================================*/
+.section-header {
+    /* About the text */
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    /*color: #007ACC;*/
+    color: white;
+    text-transform: uppercase;
+    /*text-shadow: 0px 0px 5px rgb(0, 173, 239);*/
+    background-color: rgba(30, 30, 30, 1);
+    height: 80px;
+    /* About the element */
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    border-top: 2px solid #343434;
+    border-bottom: 2px solid #343434;
+    /* Smooth change */
+    transition: all .3s ease-in-out;
+    margin-top: -34px;
+    
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+    .section-header {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1620px) {
+    .section-header {
+        font-size: 32px;
+        margin-top: 0px;
+
+    }
+
+    #topbox {
+        height: 450px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    #about .container, #presentations .container {
+        margin-bottom: 60px;
+    }
+}
+
+.section-header:hover {
+    border-top: 2px solid #007ACC;
+    border-bottom: 2px solid #007ACC;
+    text-align: center;
+    /* Smooth change */
+    transition: all .3s ease-in-out;
+
+}
+/* Create three unequal columns that floats next to each other */
+.section-column-left, .section-column-right, .section-column-middle  {
+    float: left;
+    padding: 10px;
+    height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Left and Right section title image divider */
+.section-column-left, .section-column-right {
+    width: 30%;
+}
+
+.section-row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-column-middle {
+    width: 40%;
+    padding-left: 25px;
+    padding-right: 25px;
+    vertical-align: center;
+}
+
+/* Clear floats after the columns */
+.section-row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* Forces the portfolio sections to fill all screen width (on mobile) */
+@media screen and (max-width: 650px) {
+
+    .section-header {
+        margin-top:-40px;
+    }
+
+    .section-column-middle {
+        width: 70%;
+    }
+    .section-row {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-column-left, .section-column-right {
+        width: 15%;
+    }
+
+    .diplomasection {
+        height: 140px;
+        background: red;
+    }
+}
+
+.container2 {
+    width: 100%;
+    height: 2px;
+    position: relative;
+  }
+  .circle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: calc(100% - 5px);
+  }
+  .blue {
+    margin-top: 20px;
+    background: #007ACC;
+  }
+  .blue .circle {
+    background: #007ACC;
+    border-color: #007ACC;
+  }
+  .circle3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: calc(0% - 5px);
+  }
+  .blue3 {
+    margin-top: 20px;
+    background: #007ACC;
+  }
+  .blue3 .circle3 {
+    background: #007ACC;
+    border-color: #007ACC;
+  }
+
+
+/* Authoring titles */
+.col-md-5 h3 {
+    color: #007ACC;
+}
+
+.col-md-5 p {
+    text-align: justify;
+}
+
+
+/* MSc thesis section */
+#bscthesis p {
+    color: black;
+    text-align: justify;
+}
+
+#bscthesis h3 {
+    text-align: left;
+    color: #007ACC;
+}
+/* Background layer of the first page */
+#top {
+    height:100vh;
+    background-image: url("../../images/bg12.jpg");
+	background-size: cover;
+    background-position: fixed;
+}
+
+
+/* ==========================================
+        TOP SECTION, TRANSPARENT BOX
+===========================================*/
+
+/* Transparent box in the first page */
+#topbox {
+    background-color:rgba(30, 30, 30, 0.8);
+    padding: 30px 15px 30px 15px;
+    box-shadow: 0px 0px 10px #000000;
+    margin-top: 120px;
+}
+
+/* For mobile devices lower the top margin */
+@media screen and (max-width: 736px) {
+    #topbox {
+        margin-top: 50px;
+    }
+}
+
+#topbox h2 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: none;
+    color: rgb(255, 255, 255);
+}
+
+#topbox h3 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: none;
+    color: rgb(200, 200, 200);
+}
+
+#topbox i {
+    color: #007ACC;
+    font-size: 22px;
+}
+
+
+
+/* ==============================================================
+                BLOCKQUOTE OVER CV SECTION
+===============================================================*/
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    border-left: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: none;
+    color: rgb(220, 220, 220);
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 32px;
+    border-left: none;
+}
+
+blockquote:after {
+    content: "\201E";
+    font-size: 32px;
+    border-left: none;
+}
+
+#bscthesis h3 {
+    font-family: 'Roboto', sans-serif;
+}
+/* ==============================================================
+                        CV BUTTON LINK
+===============================================================*/
+
+/* CV button link */
+.button a {
+    text-decoration: none;
+}
+
+/* CV button box */
+.button {
+    background-color:rgba(30, 30, 30, 0.8);
+    box-shadow: 0px 0px 5px #000000;
+    color: rgb(220, 220, 220);
+    border:none;
+    position:relative;
+    height:45px;
+    font-size:22px;
+    padding:0.5em 1.5em 0.5em 1.5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+.button:hover {
+    color: white;
+}
+
+.button:before {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background-color: #007ACC;
+    transition:400ms ease all;
+}
+
+.button:after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background-color: #007ACC;
+    transition:400ms ease all;
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+
+.button:hover:before {
+    width:100%;
+    transition:800ms ease all;
+}
+
+.button:hover:after {
+    width:100%;
+    transition:800ms ease all;
+}
+
+/* ==============================================================
+                        CONTACT SECTION
+===============================================================*/
+#contact p {
+    color: white!important;
+    
+}
+
+#contact {
+    background-color: rgba(30, 30, 30, 1) !important;
+}
+
+
+
+#nav a {
+    font-size: 24px;
+    
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+    #nav a {
+        font-size: 22px !important;
+    }
+
+    #nav ul li a span:before {
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 736px) and (max-width: 960px) {
+    #nav a {
+        font-size: 22px !important;
+    }
+
+    #nav ul li a span:before {
+        line-height: 1em;
+    }
+}
+
+
+@media screen and (max-width: 735px) {
+    #nav a {
+        font-size: 22px !important;
+    }
+
+    #nav ul li a span:before {
+        line-height: 1em;
+    }
+
+    #sidebar-name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px !important;
+    
+    }
+    
+    #sidebar-description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px !important;
+    
+    }
+
+    #bottomicons {
+        width: 42px;
+        margin-top: -50px;
+    }
+}

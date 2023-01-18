@@ -1,0 +1,499 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Tzivaras Vasilis</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- EMBED GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	
+	<!-- CSS LINKS -->
+	<link href="css/3-col-portfolio.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/mytheme.css" />
+
+	<!-- JS SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollzer.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+</head>
+<body>
+		<div id="header">
+			<!-- =========================================================================================================================
+											1				START HEADER AND MENU BAR
+			===========================================================================================================================-->
+			<div class="top">
+				<!-- LOGO AND TITLE -->
+				<div id="logo">
+					<!--<span class="image avatar48">
+						<img src="images/profile.png" alt="" />
+					</span>-->
+					<h1 id="sidebar-name">Tzivaras Vasilis</h1>
+					<p id="sidebar-description"><i>MSc in Computer Science Engineer</i></p>
+				</div>
+
+				<!-- NAVIGATION MENU BAR -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+						<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+						<li><a href="#presentations" id="presentations-link" class="skel-layers-ignoreHref"><span class="icon fa-file-powerpoint-o">Downloads</span></a></li>
+						<li><a href="#authoring" id="authoring-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Authoring</span></a></li>
+						<li><a href="#bscthesis" id="bscthesis-link" class="skel-layers-ignoreHref"><span class="icon fa-university">Diploma Thesis</span></a></li>
+						<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- =========================================================================================================================
+														END HEADER AND MENU BAR
+			===========================================================================================================================-->
+
+			<!-- =========================================================================================================================
+														START HEADER MENU SOCIAL ICONS
+			===========================================================================================================================-->
+			<div class="bottom">			
+				<div id="bottomicons" style="width:100%;padding-top:10px;text-align: center;">
+					<div style="display: inline-block;">
+						<a href="https://github.com/BillyTziv">
+							<img src="images/contact-icons/github.png"/>
+						</a>
+					</div>
+					<div style="display: inline-block;">
+						<a href="https://www.linkedin.com/in/vtzivaras/">
+							<img src="images/contact-icons/linkedin.png"/>
+						</a>
+					</div>
+					<div style="display: inline-block;">
+						<a href="skype:billytziv?userinfo">
+							<img src="images/contact-icons/skype.png"/>
+						</a>
+					</div>
+					
+					<div style="display: inline-block;">
+						<a href="https://m.me/vasilis.tzivaras">
+							<img src="images/contact-icons/messenger.png"/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- =========================================================================================================================
+														END HEADER MENU SOCIAL ICONS
+			===========================================================================================================================-->
+		</div>
+		<div id="main">
+			<!-- =========================================================================================================================
+														START OF INTO PAGE - COVER IMAGE
+			===========================================================================================================================-->
+			<section id="top">
+				<div class="container">
+					<div id="topbox">
+						<header></br>
+							<h2>Hi! I'm Vasilis,</h2>
+							<h3>a Computer Science Enginner with crystal clear vision</h3>
+							<div style="width:70%;margin: 40px auto 10px auto;"><hr></div></br>
+							<blockquote>I am seeking for an entry level opportunity in Networking and IoT</blockquote>
+							<!--<span class="intro_keywords">Leadership, Teamwork, Project Management, Adaptive</p>-->
+						</header></br>
+						<a href="uploads/tzivaras-cv.pdf" class="button"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Vitae</a></br></br>
+					</div>
+				</div>
+			</section>
+			<!-- =========================================================================================================================
+													END OF INTO PAGE - COVER IMAGE
+			===========================================================================================================================-->
+
+			<!-- =========================================================================================================================
+													END OF ABOUT ME SECTION 
+			===========================================================================================================================-->
+			<section id="about">
+				<header>
+					<div class="section-header">
+						<div class="section-row">
+							<div class="section-column-left">
+								<div class="container2 blue">
+									<div class="circle">
+									</div>
+								</div>
+							</div>
+							<div class="section-column-middle"><h1> About me</h1></div>
+							<div class="section-column-right">
+								<div class="container2 blue3">
+									<div class="circle3">
+									</div>
+									</div>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<div class="container">
+					<span class="profile-image">
+						<img style="border-radius: 50%;" src="images/profile_image.jpg" width="140px" alt="Tzivaras Vasilis" />
+					</span>
+					<span id="aboutme-text">
+						<p>
+							Hi, my name is Vasilis and I was born in Athens, Greece. I hold a MSc degree in <a target="_blank" href="http://cs.uoi.gr/">Computer Science and Engineering</a> and I am former chairman of IEEE <a target="_blank" href="http://uoi.gr/">University of Ioannina</a> Student Branch. My thesis work concerns quadrotor landing using visual servoing. Furthermore, I love all those weekend projects where I build challenging IoT projects and expand my knowledge in Networks, Robotics and Automation. I am also the author in two technical books about Quadrotor and Raspberry Pi, which were published from <a target="_blank" href="https://www.packtpub.com/">Packt Publishing, Birmingham, ​UK</a>. Currently, I am working as Junior Software Engineer, designing and developing software relevant to ERP.​
+						</p>
+					</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Leadership</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Creativity</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Trustworthness</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Project Management</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Teamwork</span>
+					<span class="btn btn-primary" style="margin-bottom: 5px;">Prototyping</span>
+				</div>
+			</section>
+			<!-- =========================================================================================================================
+													END OF ABOUT ME SECTION 
+			===========================================================================================================================-->
+
+			<!-- =========================================================================================================================
+													START  OF PORTFOLIO SECTION
+			===========================================================================================================================-->
+			<section id="portfolio">
+				<div class="portfolio-sublayer">
+					<header>
+						<div class="section-header">
+							<div class="section-row">
+								<div class="section-column-left">
+									<div class="container2 blue">
+										<div class="circle">
+										</div>
+									</div>
+								</div>
+								<div class="section-column-middle"><h1> Portfolio</h1></div>
+								<div class="section-column-right">
+									<div class="container2 blue3">
+										<div class="circle3">
+										</div>
+										</div>
+								</div>
+							</div> 
+						</div>
+					</header>
+					<div class="portfolio-toplayer">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/QuadcopterVisualServoing"><img class="card-img-top" src="images/portfolio-quadrotor-model.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/QuadcopterVisualServoing">Phoenix</a>
+											</h4>
+											<p class="card-text">Phoenix is a quadrotor model for research and development purposes. A DIY homemade quadrotor capable of carrying a payload up to 500 grams. It' s flight time is approximately 15min. </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/mobileRobotSim"><img class="card-img-top" src="images/portfolio-mobilerobot.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/mobileRobotSim">ArduExplorer</a>
+											</h4>
+											<p class="card-text">A DIY simple mobile robot with 4 wheels, capable of connecting to an android app via bluetooth, implement object avoidance. It is a low cost robot and it was made mostly for research and developement purposes.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/3DTetris"><img class="card-img-top" src="images/portfolio-3dtetris.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/3DTetris">3D Tetris Game</a>
+											</h4>
+											<p class="card-text">3D Tetris is a simple tetris-like game using OpenGL library, developed in C++ language. Each player has various functionalities during the game such as change the view, select cubes or pause the game.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/vraxapsa"><img class="card-img-top" src="images/portfolio-vraxapsa.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/vraxapsa">Vra-Xa-Psa</a>
+											</h4>
+											<p class="card-text">VraXaPsa a simple teris-like game in OpenGL library. It is the classic game with Scrissors, Rocks and Paper where each one of them 'eat' another. I have also added some extra bombs making this simple game quite interesting.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="#"><img class="card-img-top" src="images/portfolio-warehouse-management.PNG" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="#">Quick Recipient</a>
+											</h4>
+											<p class="card-text">A quick recipient software was designed and developed using Adobe Animate CC software. IT is cross platform and communicates with MySQL database to create a new recipient or get an old one.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/eurodataanalysis"><img class="card-img-top" src="images/portfolio-eurodataanalysis.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/eurodataanalysis">EuroData Visualizer</a>
+											</h4>
+											<p class="card-text">Builded from scratch, using just HTML5, CSS3, JS some PHP and a MySQL database, EuroData Web Visualizer is a simple project were the user can select some fields, create a query and retrieve the data from the database. Furthermore, using D3 library we visualize those data with graphs.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="https://github.com/BillyTziv/helpdesk-UI"><img class="card-img-top" src="images/portfolio-ticketservice.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="https://github.com/BillyTziv/helpdesk-UI">Ticket Service</a>
+											</h4>
+											<p class="card-text">A simple ticket service from scratch, developed in HTML5, PHP, JQuery. All the data are stored in MySQL dtabase. The user is able to create a new ticket, edit, search or view the statistics of the latest month.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="#"><img class="card-img-top" src="images/portfolio-goffee.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="#">Goffee</a>
+											</h4>
+											<p class="card-text">Goffee is a smart way of ordering your daily coffee. It was created in HTML5, CSS3 and it is communicating with a MySQL database to store your preferences and lsiten to incoming orders.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 portfolio-item">
+									<div class="card h-100">
+										<a href="#"><img class="card-img-top" src="images/portfolio-homeautomation.png" alt=""></a>
+										<div class="card-body">
+											<h4 class="card-title">
+												<a href="#">Home Automation</a>
+											</h4>
+											<p class="card-text">Using DIY arduino based sensors and boards, I have builded a home automation solution where I can control my sensors and get notifications about the status of my home.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- =========================================================================================================================
+													END  OF PORTFOLIO SECTION
+			===========================================================================================================================-->
+
+			<!-- =========================================================================================================================
+													START OF PRESENTATION SECTION
+			===========================================================================================================================-->
+			<section id="presentations">
+			<header>
+					<div class="section-header">
+						<div class="section-row">
+							<div class="section-column-left">
+								<div class="container2 blue">
+									<div class="circle">
+									</div>
+								</div>
+							</div>
+							<div class="section-column-middle"><h1>Downloads</h1></div>
+							<div class="section-column-right">
+								<div class="container2 blue3">
+									<div class="circle3">
+									</div>
+									</div>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<div class="container">
+					<table>
+						<!-- Start of Table header -->
+						<tr>
+							<th>Date</th>
+							<th>Title</th>
+						</tr>
+
+						<!-- Start of Table data -->
+						<tr>
+							<td class="table-date">02 Jan 2015</td>
+							<td class="table-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <a href="files/introduction_drones.pdf">Introduction to to Drones [GR]</a></td>
+						</tr>
+						<tr>
+							<td class="table-date">05 Mar 2017</td>
+							<td class="table-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <a href="files/HTML5_CSS3.pdf">Introduction to HTML5 and CSS3 [GR]</a></td>
+						</tr>
+						<tr>
+							<td class="table-date">02 Jul 2016</td>
+							<td class="table-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <a href="files/remote_connections.pdf">SSH and SFTP protocols [GR]</a></td>
+						</tr>
+						<tr>
+							<td class="table-date">02 Dec 2014</td>
+							<td class="table-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <a href="files/ellak.pdf">Free and Opensource Software [GR]</a></td>
+						</tr>
+						<tr>
+							<td class="table-date">02 Jan 2016</td>
+							<td class="table-text"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <a href="uploads/arduinoWorkshop.pdf">Introduction to Arduino [GR]</a></td>
+						</tr>
+					</table>
+				</div>
+
+				
+			</section>
+			<!-- =========================================================================================================================
+													END OF PRESENTATIONS SECTION
+			===========================================================================================================================-->
+
+			<!-- =========================================================================================================================
+													START OF AUTHORING SECTION
+			===========================================================================================================================-->
+			<section id="authoring" class="five">
+				<div class="portfolio-sublayer">
+					<header>
+						<div class="section-header">
+							<div class="section-row">
+								<div class="section-column-left">
+									<div class="container2 blue">
+										<div class="circle">
+										</div>
+									</div>
+								</div>
+								<div class="section-column-middle"><h1> Authoring</h1></div>
+								<div class="section-column-right">
+									<div class="container2 blue3">
+										<div class="circle3">
+										</div>
+										</div>
+								</div>
+							</div> 
+						</div>
+					</header>
+					<div class="portfolio-toplayer">
+						<div class="container"> </br>
+							<!-- Project One -->
+							<div class="row">
+								<div class="col-md-7">
+									<a href="#">
+										<img class="img-fluid rounded mb-3 mb-md-0" src="images/authoring-quadrotor.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-5">
+									<h3>Build a Quadcopter with Arduino</h3>
+									<p>Design, build, and fly your personal quadcopter using market electronics to capture incredible photographs and record phenomenal videos</p>
+									<p>ISBN: 9781785281846</p>
+									<a class="btn btn-primary" href="https://www.packtpub.com/hardware-and-creative/building-quadcopter-arduino">Read More</a>
+								</div>
+							</div></br>
+							<!-- Project Two -->
+							<div class="row">
+								<div class="col-md-7">
+									<a href="#">
+										<img class="img-fluid rounded mb-3 mb-md-0" src="images/authoring-rpi.png" alt="">
+									</a>
+								</div>
+								<div class="col-md-5">
+									<h3>RPI Zero W Wireless Projects</h3>
+									<p>Go mobile with the world' s smaller microprocessor and build DIY wireless projects using the Raspberry Pi Zero W board.</p>
+									<p>ISBN: 9781788290524</p>
+									<a class="btn btn-primary" href="https://www.packtpub.com/hardware-and-creative/raspberry-pi-zero-w-wireless-projects">Read More</a>
+								</div>
+							</div> </br>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- =========================================================================================================================
+													END OF AUTHORING SECTION
+			===========================================================================================================================-->
+			
+			<!-- =========================================================================================================================
+													START OF BSC SECTION
+			===========================================================================================================================-->
+			<section id="bscthesis" >
+			<header>
+					<div class="section-header">
+						<div class="section-row">
+							<div class="section-column-left">
+								<div class="container2 blue">
+									<div class="circle">
+									</div>
+								</div>
+							</div>
+							<div class="section-column-middle" ><h1>Thesis</h1></div>
+							<div class="section-column-right">
+								<div class="container2 blue3">
+									<div class="circle3">
+									</div>
+									</div>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<div class="container">
+					<span style="font-family: font-size: 24px; font-family: 'Roboto', sans-serif;"><h2>Title: "Autonomous quadrotor landing using Visual Servoing"</h2></span></br>
+					<p>My diploma thesis concern, the research about a well known issue in aerial robots. The landing procedure is a hard to solve problem due to many factors such as enviroment. It is a problem where SpaceX, NASA and DJI a leader company in UAV is against when trying to land a UAV or even a rocket.					I first designed a quadrotor model in MATLAB, to simulate a simple landing procedure. I then developed a more advanced landing procedure using air destarbances and the final target was moving with a steady linear velocity.</p>
+
+					<h3>Phase 1 - Study of dynamic and kinematic model</h3>
+					<p>In the first phase I studied several papers about the dynamic and kinematic model of a quadrotor. The dynamic model define all the forces which act in the physical quadrotor and the kinematic model define all the equations that are used to describe the quadrotor movement.</p>
+
+					<h3>Phase 2 - Simulation</h3>
+					<p>In the seconds phase I start the coding procedure, using MATLAB software to create a simple demo on how a quadrotor can landing on a steady and a moving target. No framework or library was used, all the code was developed by scratch using the dynamic and kinematic model as said above.</p>
+
+					<h3>Phase 3 - First Prototype</h3>
+					<p>The need of a first prototype started here. Using Ardupilot 2.8, Arduino Mega and a Raspberry Pi 3 , I builded a prototype that was able to identity points of interest and output a relevant velocity in 4 axis.</p>
+					
+					<h3>Phase 4 - Visual Servoing</h3>
+					<p>The part of Visual servoing and image processing was studied as a different project due to hardware incompatibility and low budget. I have developed an 4 points detection algorithm that retunrs the desired linear velocities of the robot.</p>
+					
+					<h3>Phase 5 - Final work</h3>
+					<p>In this part I mostly fix bugs and incompatibility issues. Theoretically, the phase 4 and phase 3 should be enough, but in reality nothing goes as you planned, so I did w/e it takes to make it work.</p>
+
+					<p>My final presentation is available in [GR] language. Download it from <a href="uploads/bscpresentation.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>here</a></p>
+				</div>
+			</section>
+			<!-- =========================================================================================================================
+													END OF BSC SECTION
+			===========================================================================================================================-->
+			
+
+			<!-- =========================================================================================================================
+														START OF CONTACT SECTION
+			===========================================================================================================================-->
+			<section id="contact" class="six">
+			<header>
+					<div class="section-header">
+						<div class="section-row">
+							<div class="section-column-left">
+								<div class="container2 blue">
+									<div class="circle">
+									</div>
+								</div>
+							</div>
+							<div class="section-column-middle"><h1> Contact</h1></div>
+							<div class="section-column-right">
+								<div class="container2 blue3">
+									<div class="circle3">
+									</div>
+									</div>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<div class="container">				
+					<p>Drop me an email at vtzivaras [at] gmail [dot] com and I will get back to you as soon as possible.</p>
+				</div>
+			</section> <!-- End of Contact section -->
+			<!-- =========================================================================================================================
+														END OF CONTACT SECTION
+			===========================================================================================================================-->
+		</div> <!-- End of main div -->
+</body> <!-- End of Body -->
+</html>
